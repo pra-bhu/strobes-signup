@@ -1,0 +1,28 @@
+$feature-flags: ( ui-shell: true, );
+@import 'carbon-components/scss/globals/scss/styles.scss';
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+h1 {
+    margin: 0px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    border: 1px black solid;
+}
+
+a {
+    text-decoration: none;
+}
